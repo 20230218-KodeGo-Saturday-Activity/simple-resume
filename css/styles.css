@@ -219,6 +219,28 @@ a:visited {
   font-size: var(--small-font-size);
 }
 .pdf {
-  margin: 3rem 0 10rem 0;
+  margin: 3rem 0 0.5rem 0;
   text-align: center;
+  color: var(--ter-color);
+}
+.button-container {
+  display: grid;
+  grid-template-columns: 8rem 8rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--ter-color);
+}
+.preview, .download {
+  /* width: 10%; */
+  color: var(--pri-color);
+  background-color: var(--ter-color);
+  padding: 0.4rem 0;
+  border: none;
+  border-radius: 0.2rem;
+}
+.preview:hover, .download:hover {
+  /* width: 10%; */
+  color: var(--pri-color);
+  background-color: var(--disabled);
 }
